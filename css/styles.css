@@ -6,9 +6,20 @@ body {
 h1 {
     font-family: Roboto;
     font-size: 72px;
-    font-weight: 700;
+    font-weight: 900;
     line-height: 84px;
     letter-spacing: 0.1em;
+
+}
+
+h2 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    font-size: 64px;
+    height: 75px;
 
 }
 
@@ -16,7 +27,9 @@ h1 {
     max-width: 120px;
 }
 
-
+.image {
+    height: 782px;
+}
 .name {
     font-family: Roboto;
     font-size: 24px;
@@ -48,6 +61,38 @@ p {
     color: #e84e7b;
 }
 
+
+.abt-socials {
+    display: flex;
+    justify-content: flex-start;
+    padding: 40px 0;
+    margin-right: 10px;
+    
+} 
+
+.abt-btn {
+    padding: 0 10px;
+}
+
+.abt-button {
+    background-color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 14px;
+    border-radius: 50px;
+    margin: 40px 0 30px;
+    width: 150px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.abt-button a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Montserrat;
+}
+
 .col {
     padding: 0 10px;
 }
@@ -71,11 +116,8 @@ p {
     font-weight: 400;
     line-height: 20px;
 }
-.btn {
-    padding: 12px 14px;
-    border-radius: 50px;
-    margin: 20px 0 30px;
-}
+
+
 .heroimg {
     height: max-content
 }
@@ -93,5 +135,10 @@ p {
 .hero {
     margin: 35px 0 70px;
 }
+
+.image {
+    height: 300px;
+}
+
 }
 
