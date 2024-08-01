@@ -71,11 +71,15 @@ p {
 
 .abt-socials {
     display: flex;
-    justify-content: flex-start;
-    padding: 40px 0;
-    margin-right: 10px;
+    justify-content: left;
+    padding: 40px 20px;
+    margin-right: 20px;
     
 } 
+
+i.fa-brands {
+    padding: 0 10px;
+}
 
 .abt-btn {
     padding: 0 10px;
@@ -111,6 +115,16 @@ p {
 .link:hover {
     color:#e84e7b;
     font-size: 20px;
+}
+
+.fa-brands {
+    color: #dee2e6;
+}
+
+.fa-brands:hover {
+    color: #000;
+    font-size: 30px;
+    
 }
 
 .contact-copyrights {
