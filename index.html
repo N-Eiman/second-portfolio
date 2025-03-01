@@ -28,7 +28,7 @@
         <a class="nav-link" href="/contact.html" title="Contact page">Contact</a>
       </div>
     </div>
-  </div>
+  
 </nav>
 
 <!--top images spans across the whole width, with text-->
@@ -37,10 +37,11 @@
 
             <img src="images/bg.png" alt="a black and white photo of a lady" style="max-width: 100%; height: auto;" class="img-fluid heroimg">
             <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 24px; font-weight: bold; text-align: center;">
-                <p class="name">Thakane Eiman</p>
+                <p class="name">Nita Eiman</p>
                 <h1 class="text-white">Photography</h1>
                 <p>I'm Juanita, a third-year IT student passionate about technology and innovation. Explore my projects, skills, and experiences that showcase my journey and growth in the world of Information Technology.</p>
                 <div class="btn btn-light">Get Started</div>
+                <h2 class="welcome"></h2>
             </div>  
         </div>
 
@@ -73,7 +74,6 @@
             </div>
         </div>
     </div>
-    </div>
 </main>
 <footer>
     <div class="footer">
@@ -89,5 +89,18 @@
     </div>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
+<script>
+    let button = document.querySelector("btn");
+
+    function welcomeMessage(message) {
+        let welcome = document.querySelector("h1");
+        welcome.innerHTML = message;
+    }
+    button.addEventListener("click", () => {
+        let name = prompt("Whats your name");
+        let welcome= document.querySelector("h1");
+        welcomeMessage(`Welcome ${name} to my portfolio, please proceed to click on the About tab!`);
+    })
+</script>
 </body>
 </html>
